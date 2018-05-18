@@ -5,5 +5,7 @@ U-Net implementation for building segmentation
 
 The original code is based on https://github.com/ternaus/kaggle_dstl_submission. 
 
-Modified to take 3-channel input, and specializes in building detection. 
+Modified to take 3-channel input and to specialize in building detection.
+
+Fixed dependancy issues in the original code too. 
 
