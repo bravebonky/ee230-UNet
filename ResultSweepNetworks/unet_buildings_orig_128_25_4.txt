@@ -1,0 +1,205 @@
+[2018-05-31 16:59:42.812384] Creating and compiling model...
+[2018-05-31 16:59:44.063713] Reading train...
+(25, 1, 3345, 3338)
+meow buildings_3_128_4
+[name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 9383577240680127610
+, name: "/device:GPU:0"
+device_type: "GPU"
+memory_limit: 5905580032
+locality {
+  bus_id: 1
+  links {
+  }
+}
+incarnation: 3877266404848013136
+physical_device_desc: "device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1"
+]
+Epoch 1/4
+
+   1/3200 [..............................] - ETA: 4:06:20 - loss: 10.2731 - binary_crossentropy: 0.6473 - jaccard_coef_int: 0.0561
+   2/3200 [..............................] - ETA: 2:05:56 - loss: 10.0140 - binary_crossentropy: 0.6435 - jaccard_coef_int: 0.0718
+   3/3200 [..............................] - ETA: 1:25:48 - loss: 9.9562 - binary_crossentropy: 0.6354 - jaccard_coef_int: 0.0777 
+   4/3200 [..............................] - ETA: 1:05:43 - loss: 9.9149 - binary_crossentropy: 0.6346 - jaccard_coef_int: 0.0780
+   5/3200 [..............................] - ETA: 53:44 - loss: 9.9584 - binary_crossentropy: 0.6277 - jaccard_coef_int: 0.0755  
+   6/3200 [..............................] - ETA: 45:42 - loss: 9.9974 - binary_crossentropy: 0.6273 - jaccard_coef_int: 0.0718
+   7/3200 [..............................] - ETA: 40:00 - loss: 9.9332 - binary_crossentropy: 0.6233 - jaccard_coef_int: 0.0750
+   8/3200 [..............................] - ETA: 35:42 - loss: 9.8895 - binary_crossentropy: 0.6190 - jaccard_coef_int: 0.0776
+   9/3200 [..............................] - ETA: 32:22 - loss: 9.8769 - binary_crossentropy: 0.6199 - jaccard_coef_int: 0.0766
+  10/3200 [..............................] - ETA: 29:42 - loss: 9.8261 - binary_crossentropy: 0.6188 - jaccard_coef_int: 0.0780
+  11/3200 [..............................] - ETA: 27:31 - loss: 9.8083 - binary_crossentropy: 0.6174 - jaccard_coef_int: 0.0784
+  12/3200 [..............................] - ETA: 25:39 - loss: 9.7882 - binary_crossentropy: 0.6184 - jaccard_coef_int: 0.0786
+  13/3200 [..............................] - ETA: 24:05 - loss: 9.8087 - binary_crossentropy: 0.6196 - jaccard_coef_int: 0.0764
+  14/3200 [..............................] - ETA: 22:45 - loss: 9.7799 - binary_crossentropy: 0.6189 - jaccard_coef_int: 0.0772
+  15/3200 [..............................] - ETA: 21:36 - loss: 9.8031 - binary_crossentropy: 0.6192 - jaccard_coef_int: 0.0750
+  16/3200 [..............................] - ETA: 20:35 - loss: 9.7741 - binary_crossentropy: 0.6175 - jaccard_coef_int: 0.0763
+  17/3200 [..............................] - ETA: 19:41 - loss: 9.7386 - binary_crossentropy: 0.6154 - jaccard_coef_int: 0.0785
+  18/3200 [..............................] - ETA: 18:54 - loss: 9.6783 - binary_crossentropy: 0.6125 - jaccard_coef_int: 0.0839
+  19/3200 [..............................] - ETA: 18:11 - loss: 9.6341 - binary_crossentropy: 0.6095 - jaccard_coef_int: 0.0879
+  20/3200 [..............................] - ETA: 17:33 - loss: 9.5934 - binary_crossentropy: 0.6074 - jaccard_coef_int: 0.0909
+  21/3200 [..............................] - ETA: 16:59 - loss: 9.5638 - binary_crossentropy: 0.6059 - jaccard_coef_int: 0.0924
+  22/3200 [..............................] - ETA: 16:28 - loss: 9.5443 - binary_crossentropy: 0.6041 - jaccard_coef_int: 0.0938
+  23/3200 [..............................] - ETA: 15:59 - loss: 9.5200 - binary_crossentropy: 0.6030 - jaccard_coef_int: 0.0947
+  24/3200 [..............................] - ETA: 15:32 - loss: 9.5011 - binary_crossentropy: 0.6008 - jaccard_coef_int: 0.0963
+  25/3200 [..............................] - ETA: 15:08 - loss: 9.4631 - binary_crossentropy: 0.5986 - jaccard_coef_int: 0.0994
+  26/3200 [..............................] - ETA: 14:45 - loss: 9.4634 - binary_crossentropy: 0.5973 - jaccard_coef_int: 0.0988
+  27/3200 [..............................] - ETA: 14:24 - loss: 9.4539 - binary_crossentropy: 0.5957 - jaccard_coef_int: 0.0993
+  28/3200 [..............................] - ETA: 14:04 - loss: 9.4361 - binary_crossentropy: 0.5946 - jaccard_coef_int: 0.0998
+  29/3200 [..............................] - ETA: 13:46 - loss: 9.4045 - binary_crossentropy: 0.5924 - jaccard_coef_int: 0.1028
+  30/3200 [..............................] - ETA: 13:29 - loss: 9.3767 - binary_crossentropy: 0.5907 - jaccard_coef_int: 0.1047
+  31/3200 [..............................] - ETA: 13:13 - loss: 9.3320 - binary_crossentropy: 0.5884 - jaccard_coef_int: 0.1091
+  32/3200 [..............................] - ETA: 12:59 - loss: 9.3055 - binary_crossentropy: 0.5865 - jaccard_coef_int: 0.1114
+  33/3200 [..............................] - ETA: 12:46 - loss: 9.2873 - binary_crossentropy: 0.5854 - jaccard_coef_int: 0.1122
+  34/3200 [..............................] - ETA: 12:33 - loss: 9.2646 - binary_crossentropy: 0.5840 - jaccard_coef_int: 0.1137
+  35/3200 [..............................] - ETA: 12:20 - loss: 9.2563 - binary_crossentropy: 0.5828 - jaccard_coef_int: 0.1139
+  36/3200 [..............................] - ETA: 12:09 - loss: 9.2514 - binary_crossentropy: 0.5818 - jaccard_coef_int: 0.1137
+  37/3200 [..............................] - ETA: 11:59 - loss: 9.2314 - binary_crossentropy: 0.5806 - jaccard_coef_int: 0.1147
+  38/3200 [..............................] - ETA: 11:48 - loss: 9.2164 - binary_crossentropy: 0.5795 - jaccard_coef_int: 0.1153
+  39/3200 [..............................] - ETA: 11:38 - loss: 9.2050 - binary_crossentropy: 0.5786 - jaccard_coef_int: 0.1155
+  40/3200 [..............................] - ETA: 11:29 - loss: 9.1820 - binary_crossentropy: 0.5781 - jaccard_coef_int: 0.1164
+  41/3200 [..............................] - ETA: 11:22 - loss: 9.1543 - binary_crossentropy: 0.5771 - jaccard_coef_int: 0.1180
+  42/3200 [..............................] - ETA: 11:15 - loss: 9.1479 - binary_crossentropy: 0.5775 - jaccard_coef_int: 0.1173
+  43/3200 [..............................] - ETA: 11:08 - loss: 9.1325 - binary_crossentropy: 0.5768 - jaccard_coef_int: 0.1176
+  44/3200 [..............................] - ETA: 11:02 - loss: 9.1149 - binary_crossentropy: 0.5759 - jaccard_coef_int: 0.1181
+  45/3200 [..............................] - ETA: 10:57 - loss: 9.0965 - binary_crossentropy: 0.5746 - jaccard_coef_int: 0.1194
+  46/3200 [..............................] - ETA: 10:51 - loss: 9.0835 - binary_crossentropy: 0.5732 - jaccard_coef_int: 0.1203
+  47/3200 [..............................] - ETA: 10:45 - loss: 9.0796 - binary_crossentropy: 0.5724 - jaccard_coef_int: 0.1198
+  48/3200 [..............................] - ETA: 10:40 - loss: 9.0697 - binary_crossentropy: 0.5717 - jaccard_coef_int: 0.1198
+  49/3200 [..............................] - ETA: 10:35 - loss: 9.0551 - binary_crossentropy: 0.5706 - jaccard_coef_int: 0.1203
+  50/3200 [..............................] - ETA: 10:30 - loss: 9.0365 - binary_crossentropy: 0.5695 - jaccard_coef_int: 0.1214
+  51/3200 [..............................] - ETA: 10:25 - loss: 9.0123 - binary_crossentropy: 0.5686 - jaccard_coef_int: 0.1226
+  52/3200 [..............................] - ETA: 10:20 - loss: 8.9974 - binary_crossentropy: 0.5674 - jaccard_coef_int: 0.1234
+  53/3200 [..............................] - ETA: 10:17 - loss: 8.9803 - binary_crossentropy: 0.5660 - jaccard_coef_int: 0.1248
+  54/3200 [..............................] - ETA: 10:13 - loss: 8.9699 - binary_crossentropy: 0.5650 - jaccard_coef_int: 0.1251
+  55/3200 [..............................] - ETA: 10:09 - loss: 8.9463 - binary_crossentropy: 0.5637 - jaccard_coef_int: 0.1266
+  56/3200 [..............................] - ETA: 10:04 - loss: 8.9238 - binary_crossentropy: 0.5627 - jaccard_coef_int: 0.1279
+  57/3200 [..............................] - ETA: 10:00 - loss: 8.9086 - binary_crossentropy: 0.5616 - jaccard_coef_int: 0.1287
+  58/3200 [..............................] - ETA: 9:56 - loss: 8.8917 - binary_crossentropy: 0.5607 - jaccard_coef_int: 0.1294 
+  59/3200 [..............................] - ETA: 9:52 - loss: 8.8956 - binary_crossentropy: 0.5601 - jaccard_coef_int: 0.1284
+  60/3200 [..............................] - ETA: 9:49 - loss: 8.8807 - binary_crossentropy: 0.5591 - jaccard_coef_int: 0.1290
+  61/3200 [..............................] - ETA: 9:46 - loss: 8.8631 - binary_crossentropy: 0.5585 - jaccard_coef_int: 0.1296
+  62/3200 [..............................] - ETA: 9:43 - loss: 8.8496 - binary_crossentropy: 0.5574 - jaccard_coef_int: 0.1304
+  63/3200 [..............................] - ETA: 9:39 - loss: 8.8416 - binary_crossentropy: 0.5572 - jaccard_coef_int: 0.1299
+  64/3200 [..............................] - ETA: 9:36 - loss: 8.8204 - binary_crossentropy: 0.5561 - jaccard_coef_int: 0.1313
+  65/3200 [..............................] - ETA: 9:33 - loss: 8.8085 - binary_crossentropy: 0.5559 - jaccard_coef_int: 0.1312
+  66/3200 [..............................] - ETA: 9:30 - loss: 8.7892 - binary_crossentropy: 0.5548 - jaccard_coef_int: 0.1323
+  67/3200 [..............................] - ETA: 9:29 - loss: 8.7729 - binary_crossentropy: 0.5542 - jaccard_coef_int: 0.1328
+  68/3200 [..............................] - ETA: 9:27 - loss: 8.7713 - binary_crossentropy: 0.5538 - jaccard_coef_int: 0.1320
+  69/3200 [..............................] - ETA: 9:25 - loss: 8.7538 - binary_crossentropy: 0.5529 - jaccard_coef_int: 0.1328
+  70/3200 [..............................] - ETA: 9:22 - loss: 8.7467 - binary_crossentropy: 0.5524 - jaccard_coef_int: 0.1325
+  71/3200 [..............................] - ETA: 9:20 - loss: 8.7305 - binary_crossentropy: 0.5513 - jaccard_coef_int: 0.1335
+  72/3200 [..............................] - ETA: 9:17 - loss: 8.7162 - binary_crossentropy: 0.5506 - jaccard_coef_int: 0.1338
+  73/3200 [..............................] - ETA: 9:15 - loss: 8.7042 - binary_crossentropy: 0.5496 - jaccard_coef_int: 0.1343
+  74/3200 [..............................] - ETA: 9:12 - loss: 8.6828 - binary_crossentropy: 0.5486 - jaccard_coef_int: 0.1356
+  75/3200 [..............................] - ETA: 9:09 - loss: 8.6639 - binary_crossentropy: 0.5476 - jaccard_coef_int: 0.1368
+  76/3200 [..............................] - ETA: 9:07 - loss: 8.6492 - binary_crossentropy: 0.5465 - jaccard_coef_int: 0.1378
+  77/3200 [..............................] - ETA: 9:05 - loss: 8.6321 - binary_crossentropy: 0.5455 - jaccard_coef_int: 0.1386
+  78/3200 [..............................] - ETA: 9:03 - loss: 8.6164 - binary_crossentropy: 0.5445 - jaccard_coef_int: 0.1395
+  79/3200 [..............................] - ETA: 9:01 - loss: 8.5961 - binary_crossentropy: 0.5434 - jaccard_coef_int: 0.1409
+  80/3200 [..............................] - ETA: 8:59 - loss: 8.5800 - binary_crossentropy: 0.5427 - jaccard_coef_int: 0.1415
+  81/3200 [..............................] - ETA: 8:57 - loss: 8.5679 - binary_crossentropy: 0.5417 - jaccard_coef_int: 0.1420
+  82/3200 [..............................] - ETA: 8:55 - loss: 8.5561 - binary_crossentropy: 0.5407 - jaccard_coef_int: 0.1426
+  83/3200 [..............................] - ETA: 8:53 - loss: 8.5453 - binary_crossentropy: 0.5398 - jaccard_coef_int: 0.1429
+  84/3200 [..............................] - ETA: 8:51 - loss: 8.5249 - binary_crossentropy: 0.5387 - jaccard_coef_int: 0.1443
+  85/3200 [..............................] - ETA: 8:49 - loss: 8.5111 - binary_crossentropy: 0.5378 - jaccard_coef_int: 0.1449
+  86/3200 [..............................] - ETA: 8:47 - loss: 8.4923 - binary_crossentropy: 0.5368 - jaccard_coef_int: 0.1461
+  87/3200 [..............................] - ETA: 8:45 - loss: 8.4729 - binary_crossentropy: 0.5357 - jaccard_coef_int: 0.1474
+  88/3200 [..............................] - ETA: 8:43 - loss: 8.4583 - binary_crossentropy: 0.5346 - jaccard_coef_int: 0.1484
+  89/3200 [..............................] - ETA: 8:41 - loss: 8.4481 - binary_crossentropy: 0.5341 - jaccard_coef_int: 0.1483
+  90/3200 [..............................] - ETA: 8:39 - loss: 8.4340 - binary_crossentropy: 0.5331 - jaccard_coef_int: 0.1491
+  91/3200 [..............................] - ETA: 8:37 - loss: 8.4210 - binary_crossentropy: 0.5329 - jaccard_coef_int: 0.1492
+  92/3200 [..............................] - ETA: 8:36 - loss: 8.4133 - binary_crossentropy: 0.5322 - jaccard_coef_int: 0.1492
+  93/3200 [..............................] - ETA: 8:35 - loss: 8.3972 - binary_crossentropy: 0.5310 - jaccard_coef_int: 0.1505
+  94/3200 [..............................] - ETA: 8:33 - loss: 8.3835 - binary_crossentropy: 0.5302 - jaccard_coef_int: 0.1509
+  95/3200 [..............................] - ETA: 8:31 - loss: 8.3698 - binary_crossentropy: 0.5295 - jaccard_coef_int: 0.1513
+  96/3200 [..............................] - ETA: 8:30 - loss: 8.3602 - binary_crossentropy: 0.5289 - jaccard_coef_int: 0.1512
+  97/3200 [..............................] - ETA: 8:28 - loss: 8.3487 - binary_crossentropy: 0.5282 - jaccard_coef_int: 0.1515
+  98/3200 [..............................] - ETA: 8:27 - loss: 8.3325 - binary_crossentropy: 0.5272 - jaccard_coef_int: 0.1524
+  99/3200 [..............................] - ETA: 8:25 - loss: 8.3156 - binary_crossentropy: 0.5263 - jaccard_coef_int: 0.1534
+ 100/3200 [..............................] - ETA: 8:23 - loss: 8.3053 - binary_crossentropy: 0.5257 - jaccard_coef_int: 0.1534
+ 101/3200 [..............................] - ETA: 8:22 - loss: 8.2902 - binary_crossentropy: 0.5250 - jaccard_coef_int: 0.1541
+ 102/3200 [..............................] - ETA: 8:21 - loss: 8.2820 - binary_crossentropy: 0.5247 - jaccard_coef_int: 0.1537
+ 103/3200 [..............................] - ETA: 8:20 - loss: 8.2658 - binary_crossentropy: 0.5236 - jaccard_coef_int: 0.1548
+ 104/3200 [..............................] - ETA: 8:18 - loss: 8.2569 - binary_crossentropy: 0.5233 - jaccard_coef_int: 0.1546
+ 105/3200 [..............................] - ETA: 8:17 - loss: 8.2447 - binary_crossentropy: 0.5223 - jaccard_coef_int: 0.1552
+ 106/3200 [..............................] - ETA: 8:15 - loss: 8.2304 - binary_crossentropy: 0.5213 - jaccard_coef_int: 0.1562
+ 107/3200 [>.............................] - ETA: 8:14 - loss: 8.2123 - binary_crossentropy: 0.5204 - jaccard_coef_int: 0.1574
+ 108/3200 [>.............................] - ETA: 8:13 - loss: 8.2052 - binary_crossentropy: 0.5201 - jaccard_coef_int: 0.1570
+ 109/3200 [>.............................] - ETA: 8:12 - loss: 8.1891 - binary_crossentropy: 0.5191 - jaccard_coef_int: 0.1581
+ 110/3200 [>.............................] - ETA: 8:10 - loss: 8.1782 - binary_crossentropy: 0.5181 - jaccard_coef_int: 0.1587
+ 111/3200 [>.............................] - ETA: 8:09 - loss: 8.1667 - binary_crossentropy: 0.5174 - jaccard_coef_int: 0.1589
+ 112/3200 [>.............................] - ETA: 8:08 - loss: 8.1583 - binary_crossentropy: 0.5166 - jaccard_coef_int: 0.1591
+ 113/3200 [>.............................] - ETA: 8:07 - loss: 8.1441 - binary_crossentropy: 0.5158 - jaccard_coef_int: 0.1596
+ 114/3200 [>.............................] - ETA: 8:06 - loss: 8.1253 - binary_crossentropy: 0.5147 - jaccard_coef_int: 0.1611
+ 115/3200 [>.............................] - ETA: 8:04 - loss: 8.1122 - binary_crossentropy: 0.5140 - jaccard_coef_int: 0.1615
+ 116/3200 [>.............................] - ETA: 8:03 - loss: 8.0935 - binary_crossentropy: 0.5131 - jaccard_coef_int: 0.1628
+ 117/3200 [>.............................] - ETA: 8:02 - loss: 8.0806 - binary_crossentropy: 0.5123 - jaccard_coef_int: 0.1633
+ 118/3200 [>.............................] - ETA: 8:01 - loss: 8.0664 - binary_crossentropy: 0.5113 - jaccard_coef_int: 0.1641
+ 119/3200 [>.............................] - ETA: 8:00 - loss: 8.0521 - binary_crossentropy: 0.5104 - jaccard_coef_int: 0.1650
+ 120/3200 [>.............................] - ETA: 7:59 - loss: 8.0341 - binary_crossentropy: 0.5094 - jaccard_coef_int: 0.1662
+ 121/3200 [>.............................] - ETA: 7:58 - loss: 8.0219 - binary_crossentropy: 0.5085 - jaccard_coef_int: 0.1668
+ 122/3200 [>.............................] - ETA: 7:58 - loss: 8.0114 - binary_crossentropy: 0.5077 - jaccard_coef_int: 0.1670
+ 123/3200 [>.............................] - ETA: 7:56 - loss: 8.0016 - binary_crossentropy: 0.5070 - jaccard_coef_int: 0.1671
+ 124/3200 [>.............................] - ETA: 7:55 - loss: 7.9885 - binary_crossentropy: 0.5063 - jaccard_coef_int: 0.1676
+ 125/3200 [>.............................] - ETA: 7:55 - loss: 7.9770 - binary_crossentropy: 0.5055 - jaccard_coef_int: 0.1680
+ 126/3200 [>.............................] - ETA: 7:53 - loss: 7.9620 - binary_crossentropy: 0.5046 - jaccard_coef_int: 0.1688
+ 127/3200 [>.............................] - ETA: 7:53 - loss: 7.9550 - binary_crossentropy: 0.5039 - jaccard_coef_int: 0.1686
+ 128/3200 [>.............................] - ETA: 7:51 - loss: 7.9441 - binary_crossentropy: 0.5034 - jaccard_coef_int: 0.1687
+ 129/3200 [>.............................] - ETA: 7:51 - loss: 7.9284 - binary_crossentropy: 0.5027 - jaccard_coef_int: 0.1696
+ 130/3200 [>.............................] - ETA: 7:50 - loss: 7.9140 - binary_crossentropy: 0.5023 - jaccard_coef_int: 0.1701
+ 131/3200 [>.............................] - ETA: 7:49 - loss: 7.8991 - binary_crossentropy: 0.5018 - jaccard_coef_int: 0.1706
+ 132/3200 [>.............................] - ETA: 7:48 - loss: 7.8904 - binary_crossentropy: 0.5010 - jaccard_coef_int: 0.1707
+ 133/3200 [>.............................] - ETA: 7:47 - loss: 7.8789 - binary_crossentropy: 0.5001 - jaccard_coef_int: 0.1713
+ 134/3200 [>.............................] - ETA: 7:46 - loss: 7.8688 - binary_crossentropy: 0.4995 - jaccard_coef_int: 0.1713
+ 135/3200 [>.............................] - ETA: 7:45 - loss: 7.8557 - binary_crossentropy: 0.4989 - jaccard_coef_int: 0.1717
+ 136/3200 [>.............................] - ETA: 7:44 - loss: 7.8434 - binary_crossentropy: 0.4982 - jaccard_coef_int: 0.1721
+ 137/3200 [>.............................] - ETA: 7:43 - loss: 7.8337 - binary_crossentropy: 0.4975 - jaccard_coef_int: 0.1723
+ 138/3200 [>.............................] - ETA: 7:42 - loss: 7.8270 - binary_crossentropy: 0.4966 - jaccard_coef_int: 0.1724
+ 139/3200 [>.............................] - ETA: 7:42 - loss: 7.8140 - binary_crossentropy: 0.4958 - jaccard_coef_int: 0.1730
+ 140/3200 [>.............................] - ETA: 7:41 - loss: 7.8019 - binary_crossentropy: 0.4952 - jaccard_coef_int: 0.1733
+ 141/3200 [>.............................] - ETA: 7:40 - loss: 7.7895 - binary_crossentropy: 0.4944 - jaccard_coef_int: 0.1739
+ 142/3200 [>.............................] - ETA: 7:39 - loss: 7.7769 - binary_crossentropy: 0.4935 - jaccard_coef_int: 0.1746
+ 143/3200 [>.............................] - ETA: 7:38 - loss: 7.7625 - binary_crossentropy: 0.4927 - jaccard_coef_int: 0.1754
+ 144/3200 [>.............................] - ETA: 7:38 - loss: 7.7466 - binary_crossentropy: 0.4918 - jaccard_coef_int: 0.1765
+ 145/3200 [>.............................] - ETA: 7:37 - loss: 7.7299 - binary_crossentropy: 0.4910 - jaccard_coef_int: 0.1776
+ 146/3200 [>.............................] - ETA: 7:36 - loss: 7.7204 - binary_crossentropy: 0.4900 - jaccard_coef_int: 0.1782
+ 147/3200 [>.............................] - ETA: 7:35 - loss: 7.7085 - binary_crossentropy: 0.4893 - jaccard_coef_int: 0.1785
+ 148/3200 [>.............................] - ETA: 7:34 - loss: 7.6969 - binary_crossentropy: 0.4886 - jaccard_coef_int: 0.1788
+ 149/3200 [>.............................] - ETA: 7:33 - loss: 7.6828 - binary_crossentropy: 0.4879 - jaccard_coef_int: 0.1795
+ 150/3200 [>.............................] - ETA: 7:33 - loss: 7.6695 - binary_crossentropy: 0.4871 - jaccard_coef_int: 0.1802
+ 151/3200 [>.............................] - ETA: 7:32 - loss: 7.6586 - binary_crossentropy: 0.4863 - jaccard_coef_int: 0.1805
+ 152/3200 [>.............................] - ETA: 7:31 - loss: 7.6461 - binary_crossentropy: 0.4855 - jaccard_coef_int: 0.1813
+ 153/3200 [>.............................] - ETA: 7:31 - loss: 7.6351 - binary_crossentropy: 0.4848 - jaccard_coef_int: 0.1815
+ 154/3200 [>.............................] - ETA: 7:30 - loss: 7.6311 - binary_crossentropy: 0.4841 - jaccard_coef_int: 0.1812
+ 155/3200 [>.............................] - ETA: 7:29 - loss: 7.6274 - binary_crossentropy: 0.4846 - jaccard_coef_int: 0.1806
+ 156/3200 [>.............................] - ETA: 7:28 - loss: 7.6201 - binary_crossentropy: 0.4842 - jaccard_coef_int: 0.1804
+ 157/3200 [>.............................] - ETA: 7:27 - loss: 7.6096 - binary_crossentropy: 0.4840 - jaccard_coef_int: 0.1805
+ 158/3200 [>.............................] - ETA: 7:27 - loss: 7.6001 - binary_crossentropy: 0.4835 - jaccard_coef_int: 0.1804
+ 159/3200 [>.............................] - ETA: 7:26 - loss: 7.5892 - binary_crossentropy: 0.4827 - jaccard_coef_int: 0.1809
+ 160/3200 [>.............................] - ETA: 7:26 - loss: 7.5784 - binary_crossentropy: 0.4820 - jaccard_coef_int: 0.1813
+ 161/3200 [>.............................] - ETA: 7:25 - loss: 7.5632 - binary_crossentropy: 0.4813 - jaccard_coef_int: 0.1822
+ 162/3200 [>.............................] - ETA: 7:24 - loss: 7.5504 - binary_crossentropy: 0.4807 - jaccard_coef_int: 0.1827
+ 163/3200 [>.............................] - ETA: 7:24 - loss: 7.5388 - binary_crossentropy: 0.4798 - jaccard_coef_int: 0.1832
+ 164/3200 [>.............................] - ETA: 7:23 - loss: 7.5318 - binary_crossentropy: 0.4797 - jaccard_coef_int: 0.1829
+ 165/3200 [>.............................] - ETA: 7:22 - loss: 7.5192 - binary_crossentropy: 0.4788 - jaccard_coef_int: 0.1837
+ 166/3200 [>.............................] - ETA: 7:22 - loss: 7.5070 - binary_crossentropy: 0.4781 - jaccard_coef_int: 0.1841
+ 167/3200 [>.............................] - ETA: 7:21 - loss: 7.4927 - binary_crossentropy: 0.4772 - jaccard_coef_int: 0.1852
+ 168/3200 [>.............................] - ETA: 7:21 - loss: 7.4822 - binary_crossentropy: 0.4766 - jaccard_coef_int: 0.1855
+ 169/3200 [>.............................] - ETA: 7:20 - loss: 7.4697 - binary_crossentropy: 0.4757 - jaccard_coef_int: 0.1861
+ 170/3200 [>.............................] - ETA: 7:20 - loss: 7.4574 - binary_crossentropy: 0.4749 - jaccard_coef_int: 0.1868
+ 171/3200 [>.............................] - ETA: 7:19 - loss: 7.4449 - binary_crossentropy: 0.4741 - jaccard_coef_int: 0.1875
+ 172/3200 [>.............................] - ETA: 7:18 - loss: 7.4340 - binary_crossentropy: 0.4735 - jaccard_coef_int: 0.1878
+ 173/3200 [>.............................] - ETA: 7:18 - loss: 7.4191 - binary_crossentropy: 0.4727 - jaccard_coef_int: 0.1887
+ 174/3200 [>.............................] - ETA: 7:17 - loss: 7.4105 - binary_crossentropy: 0.4722 - jaccard_coef_int: 0.1887
+ 175/3200 [>.............................] - ETA: 7:17 - loss: 7.3965 - binary_crossentropy: 0.4715 - jaccard_coef_int: 0.1895
+ 176/3200 [>.............................] - ETA: 7:17 - loss: 7.3836 - binary_crossentropy: 0.4707 - jaccard_coef_int: 0.1902
+ 177/3200 [>.............................] - ETA: 7:16 - loss: 7.3715 - binary_crossentropy: 0.4700 - jaccard_coef_int: 0.1907
+ 178/3200 [>.............................] - ETA: 7:15 - loss: 7.3643 - binary_crossentropy: 0.4693 - jaccard_coef_int: 0.1906
+ 179/3200 [>.............................] - ETA: 7:15 - loss: 7.3577 - binary_crossentropy: 0.4689 - jaccard_coef_int: 0.1903
+ 180/3200 [>.............................] - ETA: 7:14 - loss: 7.3478 - binary_crossentropy: 0.4682 - jaccard_coef_int: 0.1905
+ 181/3200 [>.............................] - ETA: 7:14 - loss: 7.3371 - binary_crossentropy: 0.4676 - jaccard_coef_int: 0.1908
+ 182/3200 [>.............................] - ETA: 7:14 - loss: 7.3246 - binary_crossentropy: 0.4667 - jaccard_coef_int: 0.1916
